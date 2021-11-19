@@ -1,0 +1,40 @@
+/* element selector */
+p {
+    color: blue;
+    background-color: coral;
+}
+/* class selector, mrnggunakan . */
+body {
+    background-color: cyan;
+}
+
+p.yellow {
+    color: yellow;
+}
+
+/* id selector, menggunakan # */
+h3#blue {
+    color: blue;
+    background-color: white;
+}
+
+p.box {
+    color: violet;
+    background-color: white;
+    /* padding shorthand */
+    padding: 50px;
+    /* warna, tebal, jenis */
+    border: tomato 20px dotted; 
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+}
+
+p.green {
+    color: blueviolet;
+    background-color: green;
+}
